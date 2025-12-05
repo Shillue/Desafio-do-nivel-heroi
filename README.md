@@ -1,30 +1,84 @@
-# Desafio-do-nivel-heroi
- Desafio do Felipão do Curso Dio
- 
-Instruções para entrega
-# 1️⃣ Desafio Classificador de nível de Herói
+# 🦸‍♂️ Classificador de Nível de Herói  
 
-**O Que deve ser utilizado**
+Projeto desenvolvido como parte do Desafio do Felipão no curso da DIO (Digital Innovation One).
+Este repositório contém duas versões do classificador: uma versão simples e outra interativa com validação e repetição.
+ 
+---
+
+## 📌 Sobre o Desafio  
+O objetivo é criar um programa capaz de classificar um herói de acordo com sua quantidade de **XP (experiência)**.
+
+---
+
+### 🛠️ O Que deve ser utilizado
 
 - Variáveis
 - Operadores
 - Laços de repetição
 - Estruturas de decisões
 
-## Objetivo
+---
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+## 🏅 Tabela de Classificação
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 5.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+| Faixa de XP          | Nível         |
+|----------------------|---------------|
+| ⭐ 0 a 1000           | **Ferro**      |
+| 🥉 1001 a 2000       | **Bronze**     |
+| 🥈 2001 a 5000       | **Prata**      |
+| 🥇 5001 a 7000       | **Ouro**       |
+| 💠 7001 a 8000       | **Platina**    |
+| 🔺 8001 a 9000       | **Ascendente** |
+| 🔱 9001 a 10000      | **Imortal**    |
+| 🌟 10001 ou mais     | **Radiante**   |
 
-## Saída
+---
 
-Ao final deve se exibir uma mensagem:
+## 📝 Saída esperada  
+
+Ao final deve se exibir uma mensagem:    
 "O Herói de nome **{nome}** está no nível de **{nivel}**"
+
+---
+
+## 📁 Arquivos do Projeto
+
+### **1️⃣ index.js**  
+Versão simples do desafio:  
+- Código direto sem interação  
+- Nome e XP definidos no próprio arquivo  
+- Apenas executa e imprime o nível  
+- Ideal para entender a lógica básica
+
+---
+
+### **2️⃣ index-v2.js**  
+Versão avançada e interativa:  
+✨ **Melhorias incluídas:**  
+- Entrada de dados pelo usuário usando **prompt-sync**  
+- Pergunta se o usuário quer iniciar  
+- Verifica se a opção digitada é válida  
+- Loop que permite consultar vários heróis  
+- Exibe o nível de acordo com o XP digitado  
+- Permite encerrar o programa digitando "2"
+
+## 📌 Como executar o projeto
+
+### Instale o prompt-sync (apenas para a versão v2):
+```bash
+npm install prompt-sync
+```
+
+### Execute qualquer versão:
+```bash
+node index.js
+````
+ou
+```bash
+node index-v2.js
+````
+---
+
+## 👨‍💻 Autor
+
+Feito com 💖 por [Shilluê](https://www.linkedin.com/in/shillu%C3%AA/) para o desafio da [DIO](https://www.dio.me/)
